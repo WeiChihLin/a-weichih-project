@@ -39,31 +39,12 @@ n is the times toss the coins and the output is the probability of loss.
 ## Running the tests
 
 This project uses the pytest to test the main function.
-The test file locates at test/item_1 named test_this.py.
-
-
-### Coding style tests
-
-Explain what these tests test and why
-
+The test file locates at test/item_1 named test_this.py. This function can execute as the following command.
 ```
-Give an example
+pytest test_this.py
 ```
+The coding style is following  REP8 in general. It uses black to format the script and uses pylint to check the script.
 
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
