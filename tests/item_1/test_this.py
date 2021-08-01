@@ -3,7 +3,7 @@ import pytest
 import sys
 
 
-sys.path.append("/home/wei-zhi/Programing Project/a-WeiZhi-project/")
+sys.path.append("/home/wei-zhi/Programing Project/a-weichih-project/")
 from calucate_probabiliry.main import main
 
 
