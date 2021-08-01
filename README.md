@@ -67,5 +67,5 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **WeiChihLin* - *Initial work* - [WeiChihLin](https://github.com/WeiChihLin)
+* **WeiChihLin*  [WeiChihLin](https://github.com/WeiChihLin)
 
