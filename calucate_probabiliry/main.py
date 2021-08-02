@@ -16,7 +16,6 @@ def main(args):
            bool: True if successful, False otherwise.
 
     """
-    print(type(args))
     parser = argparse.ArgumentParser()
     parser.add_argument('-n')
     process(**vars(parser.parse_args(args)))
@@ -32,7 +31,9 @@ def process(n=None):
            n: the times of the toss coins.
 
     """
+    # transfer the type of input parameter from string into int.
     n = int(n)
+    # check the times of toss coins is bigger than zero.
     if n == 0:
         prob_of_lose = 0
     elif n < 0:
@@ -54,15 +55,23 @@ def probaility_of_loss(n):
             prob_of_lose(float): the probability of lose.
 
     """
+    # parameter setting
+    # head:  the gain how much we win.
+    # tail:  the loss how much we lose.
+    # num_of_tail: the total number of toss the tail.
     head = 12
     tail = -10
     num_of_tail = 0
 
     for i in range(n):
+        # calucate the total gain we get
         gain = head*i + tail*(n-i)
+        # if the gain is bigger than 0, it means this situation wins the game. So, quite the for loop.
         if gain > 0:
             break
+        # sum the total number of loss situations.
         num_of_tail = num_of_tail + comb(n, n-i)
+    # calculate the probability of loss.
     prob_of_lose = round(num_of_tail/pow(2, n), 2)
     return prob_of_lose
 
