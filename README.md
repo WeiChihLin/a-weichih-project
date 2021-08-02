@@ -23,10 +23,15 @@ This project has been build by the anaconda. Please use the anaconda to build th
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Install Requriements
 
-Say what the step will be
+Create a python 3.7 environment, eg:
+```
+codna create -n probability_env
+conda activate probability_env
+```
 
+Install other requirements with conda.
 ```
 cd a-weichih-project
 conda install --file requirement.txt
