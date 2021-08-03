@@ -1,14 +1,11 @@
 import mock
 import pytest
-import sys
-import os
 
 
-sys.path.append("/home/wei-zhi/Programing Project/a-weichih-project/")
-from calucate_probabiliry.main import main
+from calucate_probability.main import main
 
 
-@mock.patch('calucate_probabiliry.main.process')
+@mock.patch('calucate_probability.main.process')
 def test_main(process):
     """
     This function tests the main.py using pytest and the mock package.

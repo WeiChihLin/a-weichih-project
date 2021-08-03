@@ -36,6 +36,8 @@ def process(n=None):
     # check the times of toss coins is bigger than zero.
     if n == 0:
         prob_of_lose = 0
+        print('The probability of losing a coin with zero toss is 0. ')
+        print('prob_lose=', prob_of_lose)
     elif n < 0:
         print('n cannot small than 0.')
     else:
@@ -66,7 +68,8 @@ def probaility_of_loss(n):
     for i in range(n):
         # calucate the total gain we get
         gain = head*i + tail*(n-i)
-        # if the gain is bigger than 0, it means this situation wins the game. So, quite the for loop.
+        # if the gain is bigger than 0, it means this situation wins the game. 
+        # So, quite the for loop.
         if gain > 0:
             break
         # sum the total number of loss situations.
