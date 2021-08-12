@@ -1,8 +1,13 @@
 import argparse
 import getopt
 import math
+import os
 import sys
+from dotenv import load_dotenv
 from scipy.special import comb
+
+
+load_dotenv()
 
 
 def main(args):
@@ -17,7 +22,6 @@ def main(args):
 
     """
     parser = argparse.ArgumentParser()
-    parser.add_argument('-n')
     process(**vars(parser.parse_args(args)))
     return True
 
@@ -31,11 +35,12 @@ def process(n=None):
            n: the times of the toss coins.
 
     """
+    n = os.getenv("NUM_COIN_FLIP")
     # transfer the type of input parameter from string into int.
     n = int(n)
     # check the times of toss coins is bigger than zero.
     # If n is zero or small than zero, this function
-    # returns the message and breaks the function.  
+    # returns the message and breaks the function.
     if n == 0:
         prob_of_lose = 0
         print('The probability of losing a coin with zero toss is 0. ')
@@ -70,7 +75,7 @@ def probaility_of_loss(n):
     for i in range(n):
         # calucate the total gain we get
         gain = head*i + tail*(n-i)
-        # if the gain is bigger than 0, it means this situation wins the game. 
+        # if the gain is bigger than 0, it means this situation wins the game.
         # So, quite the for loop.
         if gain > 0:
             break
