@@ -2,7 +2,7 @@ import argparse
 import getopt
 import math
 import sys
-from scipy.special import comb, perm
+from scipy.special import comb
 
 
 def main(args):
@@ -34,6 +34,8 @@ def process(n=None):
     # transfer the type of input parameter from string into int.
     n = int(n)
     # check the times of toss coins is bigger than zero.
+    # If n is zero or small than zero, this function
+    # returns the message and breaks the function.  
     if n == 0:
         prob_of_lose = 0
         print('The probability of losing a coin with zero toss is 0. ')

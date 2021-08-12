@@ -1,7 +1,13 @@
 import mock
 import pytest
+import sys
+import os
 
 
+# Add the relative path for import the calucate_probability package
+dir_path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+dir_path_abs = os.path.abspath(dir_path)
+sys.path.append(dir_path_abs)
 from calucate_probability.main import main
 
 
