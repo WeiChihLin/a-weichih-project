@@ -38,7 +38,7 @@ conda activate probability_env
 Install other requirements with conda.
 ```
 cd a-weichih-project
-conda install --file requirement.txt
+conda install --file requirements.txt
 ```
 The main file locates at calcuate_probability. The function can execute as the following command.
 ```
