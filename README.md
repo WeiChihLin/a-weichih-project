@@ -15,8 +15,10 @@ The framework has been developed and tested under Ubuntu 18.04. The requirement 
 Requirements:
 * python 3.7.11
 * scipy  1.5.2
+* mock   4.0.3
 * numpy  1.19.1
 * pytest 6.1.1
+* python-dot 0.19.0
 
 This project has been build by the anaconda. Please use the anaconda to build the environment with requirement.txt to run this project.
 
@@ -38,8 +40,9 @@ conda install --file requirement.txt
 ```
 The main file locates at calcuate_probability. The function can execute as the following command.
 ```
-python main.py -n 30
+python main.py
 ```
+The default parameter n is setting as 30 in .env file.
 n is the times toss the coins and the output is the probability of loss.
 
 ## Running the tests
