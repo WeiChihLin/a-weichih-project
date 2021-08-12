@@ -19,6 +19,7 @@ Requirements:
 * pytest 6.1.1
 
 This project has been build by the anaconda. Please use the anaconda to build the environment with requirement.txt to run this project.
+You can refer the following steps in the website to install the anaconda. (https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
 
 
 ### Installing
@@ -27,7 +28,7 @@ Install Requriements
 
 Create a python 3.7 environment, eg:
 ```
-codna create -n probability_env
+codna create -n probability_env python=3.7
 conda activate probability_env
 ```
 
@@ -38,7 +39,7 @@ conda install --file requirement.txt
 ```
 The main file locates at calcuate_probability. The function can execute as the following command.
 ```
-python main.py -n 30
+python calcuate_probability/main.py -n 30
 ```
 n is the times toss the coins and the output is the probability of loss.
 
@@ -54,5 +55,5 @@ The coding style is following  REP8 in general. It uses black to format the scri
 
 ## Authors
 
-* **WeiChihLin*  [WeiChihLin](https://github.com/WeiChihLin)
+* **WeiChihLin**  [WeiChihLin](https://github.com/WeiChihLin)
 
