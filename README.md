@@ -15,6 +15,7 @@ The framework has been developed and tested under Ubuntu 18.04. The requirement 
 Requirements:
 * python 3.7.11
 * scipy  1.5.2
+* mock   4.0.3
 * numpy  1.19.1
 * pytest 6.1.1
 
@@ -55,5 +56,5 @@ The coding style is following  REP8 in general. It uses black to format the scri
 
 ## Authors
 
-*WeiChihLin* - [WeiChihLin](https://github.com/WeiChihLin)
+* *WeiChihLin* -  [WeiChihLin](https://github.com/WeiChihLin)
 
