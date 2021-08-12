@@ -29,7 +29,7 @@ Install Requriements
 
 Create a python 3.7 environment, eg:
 ```
-codna create -n probability_env
+codna create -n probability_env python=3.7
 conda activate probability_env
 ```
 
