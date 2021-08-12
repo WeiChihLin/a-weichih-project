@@ -42,7 +42,7 @@ conda install --file requirements.txt
 ```
 The main file locates at calcuate_probability. The function can execute as the following command.
 ```
-python main.py
+python calcuate_probability/main.py
 ```
 The default parameter n is setting as 30 in .env file.
 n is the times toss the coins and the output is the probability of loss.
