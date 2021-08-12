@@ -47,7 +47,7 @@ n is the times toss the coins and the output is the probability of loss.
 This project uses the pytest to test the main function.
 The test file locates at test/item_1 named test_this.py. This function can execute as the following command.
 ```
-pytest test_this.py
+pytest tests/item_1/test_this.py
 ```
 The coding style is following  REP8 in general. It uses black to format the script and uses pylint to check the script.
 
