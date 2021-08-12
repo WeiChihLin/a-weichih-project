@@ -21,5 +21,5 @@ def test_main(process):
            to input the parameters to calculate the probability of lose.
 
     """
-    main(['-n', '30'])
-    process(n='30')
+    main([])
+    process()
