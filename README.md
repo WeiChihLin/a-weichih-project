@@ -55,5 +55,5 @@ The coding style is following  REP8 in general. It uses black to format the scri
 
 ## Authors
 
-* **WeiChihLin**  '\t'[WeiChihLin](https://github.com/WeiChihLin)
+* [WeiChihLin](https://github.com/WeiChihLin)
 
