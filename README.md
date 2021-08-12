@@ -22,9 +22,7 @@ Requirements:
 
 This project has been build by the anaconda. Please use the anaconda to build the environment with requirement.txt to run this project.
 You can refer the following steps in the website to install the anaconda.
-'''
-https://conda.io/projects/conda/en/latest/user-guide/install/index.html
-'''
+(https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
 
 
 ### Installing
