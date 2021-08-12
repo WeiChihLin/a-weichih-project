@@ -1,6 +1,6 @@
 # a-weichih-project
 
-Author: WeiChihLin
+Author: WeiChihLin, albearo
 
 This project is an example of calculating the probability of loss for toss n time coins.
 
